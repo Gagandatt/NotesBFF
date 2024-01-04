@@ -12,7 +12,7 @@ connectDB();
 
 app.use(bodyParser.json());
 app.use(cors());
-app.use('/notes',notesRoutes);
+app.use('/api',notesRoutes);
 app.use('/auth', authRoutes);
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
