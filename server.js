@@ -12,7 +12,6 @@ connectDB();
 
 app.use(bodyParser.json());
 app.use(cors());
-app.use(limiter);
 app.use('/',notesRoutes);
 app.use('/api/auth', authRoutes);
 
