@@ -32,19 +32,7 @@ This API provides endpoints for managing user accounts and notes.
     npm install
     ```
 
-3. **Set up your environment variables:**
-
-    Create a `.env` file in the root directory and add the following:
-
-    ```env
-    PORT=3000
-    DATABASE_URL=your_database_url
-    SECRET_KEY=your_secret_key
-    ```
-
-    Replace `your_database_url` and `your_secret_key` with your actual database connection URL and a secret key for token generation.
-
-4. **Start the server:**
+3. **Start the server:**
 
     ```bash
     npm start
